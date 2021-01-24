@@ -8,4 +8,7 @@ def cleanWord(word):
     return word[0] + cleanWord(word[1:])
 
 
-print(cleanWord("mmmaajeeeeddddd"))
+print(cleanWord("hooooww aaarre yooouuuuuu"))
+
+# input ==> hooooww aaarre yooouuuuuu
+# output ==>  how are you
